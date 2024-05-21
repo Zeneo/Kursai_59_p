@@ -87,6 +87,19 @@ h1 {
   color: #fff;
   text-shadow: 2px 2px 2px #333;
 }
+.column_cnt .quantity_cnt {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.column_cnt .quantity {
+  position: absolute;
+  bottom: 0;
+  background-color: #1c7430;
+  height: 50%;
+  width: 100%;
+  z-index: 110;
+}
 
 .hunger_cnt {
   top: 50px;
