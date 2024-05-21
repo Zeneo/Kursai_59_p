@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", serif;
+  background-color: #333;
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 30px;
+  font-family: "Helvetica Neue", Verdana, serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.center {
+  margin-top: 50px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-width {
+  width: 1080px;
+  height: 360px;
+  background-color: #fff;
+}
+
+.field_cnt {
+  width: 1080px;
+  height: 360px;
+  background-image: url("../../img/grass.jpg");
+  background-repeat: no-repeat;
+}
+
+.sprite_cnt {
+  position: relative;
+  margin: 0 auto;
+  top: 230px;
+  width: 1000px;
+  height: 130px;
+}
+
+.sprite {
+  width: 70px;
+  height: 70px;
+  background-image: url("../../img/sprite.png");
+  background-position: -70px 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 400px;
+}
+
+.spire_inv {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.smooth {
+  transition: left 100ms, top 100ms;
+}
+
+/*# sourceMappingURL=lab.css.map */
