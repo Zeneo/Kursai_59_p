@@ -108,7 +108,7 @@ h1 {
     position: absolute;
     bottom: 0;
     background-color: #1c7430;
-    height: 50%;
+    height: 100%;
     width: 100%;
     z-index: 110;
   }
@@ -132,5 +132,31 @@ h1 {
   h3 {
     text-align: right;
     right: 0;
+  }
+}
+.died {
+  position: fixed;
+  z-index:110;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+.msg-cnt {
+  position: absolute;
+  z-index: 120;
+  top: 50%;
+  left: 50%;
+  color: #c82333;
+  margin-left: -250px;
+  margin-top: -50px;
+  height: 50px;
+  width: 500px;
+  line-height: 50px;
+  text-align: center;
+  h1 {
+    color: #c82333;
+    text-shadow: 0 0 4px #fff,0 0 10px #fff;
   }
 }
