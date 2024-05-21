@@ -30,6 +30,7 @@ h1 {
   width: 1080px;
   height: 360px;
   background-color: #fff;
+  position: relative;
 }
 
 .field_cnt {
@@ -41,6 +42,7 @@ h1 {
 
 .sprite_cnt {
   position: relative;
+  overflow: hidden;
   margin: 0 auto;
   top: 230px;
   width: 1000px;
@@ -68,6 +70,45 @@ h1 {
 
 .smooth {
   transition: left 100ms, top 100ms;
+}
+
+.column_cnt {
+  position: absolute;
+  z-index: 100;
+  height: 150px;
+  width: 15px;
+  background-color: #721c24;
+  box-shadow: 2px 2px 3px #333;
+}
+.column_cnt h3 {
+  position: absolute;
+  top: -35px;
+  width: 100px;
+  color: #fff;
+  text-shadow: 2px 2px 2px #333;
+}
+
+.hunger_cnt {
+  top: 50px;
+  left: 20px;
+}
+.hunger_cnt .title {
+  position: relative;
+}
+.hunger_cnt h3 {
+  text-align: left;
+}
+
+.health_cnt {
+  top: 50px;
+  right: 20px;
+}
+.health_cnt .title {
+  position: relative;
+}
+.health_cnt h3 {
+  text-align: right;
+  right: 0;
 }
 
 /*# sourceMappingURL=lab.css.map */
